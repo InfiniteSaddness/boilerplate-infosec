@@ -2,9 +2,7 @@ const express = require('express');
 const helmet = require('helmet');
 const app = express();
 
-
-app.use(helmet.hidePoweredBy());
-
+// Going to make changes directly to served version for the remainder of the course
 
 
 
